@@ -1,8 +1,8 @@
 <!--
  * @Author: yongyuan253015@gmail.com
  * @Date: 2021-12-13 21:51:17
- * @LastEditors: 
- * @LastEditTime: 2021-12-13 21:55:41
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2021-12-13 23:18:17
  * @Description: 文件描述
 -->
 <!DOCTYPE html>
@@ -13,11 +13,18 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
     <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
     <title>Hello World!</title>
+    <link rel="stylesheet" type="text/css" href="./index.css">
   </head>
   <body>
     <h1>Hello World!哈哈哈</h1>
     We are using Node.js <span id="node-version"></span>,
     Chromium <span id="chrome-version"></span>,
     and Electron <span id="electron-version"></span>.
+    <p>Current theme source: <strong id="theme-source">System</strong></p>
+
+    <button id="toggle-dark-mode">Toggle Dark Mode</button>
+    <button id="reset-to-system">Reset to System Theme</button>
+
+    <script src="renderer.js"></script>
   </body>
 </html>
