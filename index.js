@@ -1,10 +1,3 @@
-/*
- * @Author: yongyuan253015@gmail.com
- * @Date: 2021-12-13 21:48:42
- * @LastEditors: Please set LastEditors
- * @LastEditTime: 2021-12-13 23:21:40
- * @Description: 文件描述
- */
 const { app, BrowserWindow, ipcMain, nativeTheme } = require('electron');
 const path = require('path');
 
